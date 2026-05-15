@@ -70,6 +70,7 @@ const goToPreviousSlide = () => {
 useEffect(() => {
   const handleMessage = (event: MessageEvent) => {
     const allowedOrigins = [
+      "https://competition-metrics-splashtop-apr20.vercel.app/",
       "https://lwstaging.webflow.io",
       "https://www.leadwalnut.com"
     ];
